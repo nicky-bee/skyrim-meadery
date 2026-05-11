@@ -97,7 +97,7 @@ Function StartBrew()
 		Return
 	EndIf
 
-	Game.GetPlayer().RemoveItem(Honey, 3)
+	Game.GetPlayer().RemoveItem(Honey, 1)
 	Game.GetPlayer().RemoveItem(Yeast, 1)
 
 	BrewName = "Homemade Mead"
